@@ -148,6 +148,13 @@ section.moods p{
     color: #28b474;
     font-weight: 700;
 }
+.favorite ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.favorite li{
+    flex: 0 0 auto;
+}
 .neighbors li{
     position: relative;
 }
